@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { Grid } from "@mui/material";
-import airplane from "../public/53031.jpg";
+import airplane from "../public/assets/53031.png";
 
 function images() {
 

@@ -1,6 +1,6 @@
-import Pic1 from "../../public/travel-bag_3088254.png";
-import Pic3 from "../../public/travel_826070.png";
-import Pic2 from "../../public/travel-luggage_2028376.png";
+import Pic1 from "../../public/assets/travel-bag_3088254.png";
+import Pic3 from "../../public/assets/travel_826070.png";
+import Pic2 from "../../public/assets/travel-luggage_2028376.png";
 
 export const footerTopImgData = [
 

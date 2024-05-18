@@ -7,7 +7,7 @@ import {Typography} from "@mui/material";
 import Grid from "@mui/material/Grid";
 import Image from "next/image";
 import React from "react";
-import shawl from "../public/logo.png";
+import shawl from "../public/assets/logo.png";
 import Footerlink from "./Components/footerLink";
 import Footertopimg from "./Components/footerTopImg";
 import {footerLinkData} from "./Data/footerLinkData";

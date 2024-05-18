@@ -11,7 +11,7 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import Image from "next/image";
 import Link from 'next/link';
 import React from "react";
-import Zenith from "../public/logo.png";
+import Zenith from "../public/assets/logo.png";
 import HeaderButt from "./Components/headerButt";
 import {headerButtData} from "./Data/headerButtData";
 

@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import baggage from "../public/top-view-passport-tickets-arrangement.png";
+import baggage from "../public/assets/top-view-passport-tickets-arrangement.png";
 import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
 import {Typography} from "@mui/material";

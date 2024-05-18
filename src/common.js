@@ -1,13 +1,13 @@
-import React from "react";
-import Image from "next/image";
-import QrCode from "../public/export-20240517120744nCtU.jpeg";
-import Mobile from "../public/travel-concept-with-passport-tickets.png";
-import ArrowBackIosNewOutlinedIcon from "@mui/icons-material/ArrowBackIosNewOutlined";
-import Grid from "@mui/material/Grid";
 import AndroidIcon from "@mui/icons-material/Android";
 import AppleIcon from "@mui/icons-material/Apple";
+import ArrowBackIosNewOutlinedIcon from "@mui/icons-material/ArrowBackIosNewOutlined";
+import Grid from "@mui/material/Grid";
 import Link from "@mui/material/Link";
 import Typography from "@mui/material/Typography";
+import Image from "next/image";
+import React from "react";
+import QrCode from "../public/assets/rq.png";
+import Mobile from "../public/assets/travel-concept-with-passport-tickets.png";
 
 function Common() {
   return (
@@ -34,7 +34,7 @@ function Common() {
             xs={11}
         >
           <Grid item xl={1.75} lg={1.75} md={2} xs={12} sx={{ display: { xs: 'none', md: 'block' , xl: 'block', lg: 'block' }, marginTop:2 , marginBottom: 2}}>
-            <Image src={QrCode} alt="QR Code" />
+            <img src={QrCode} alt="QR Code" />
           </Grid>
           <Grid item xl={5} lg={5} md={4} xs={12} sx={{ marginRight: 5 , marginTop:2 , marginBottom: 2}}>
             <Typography variant="h4" sx={{ fontWeight: "900" }}>Zenith App</Typography>
